@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&family=Signika:wght@600&display=swap" rel="stylesheet">
+    <title>Watches</title>
+</head>
+<body>
+    <header>
+      <a id="home"></a>
+      <nav>
+        <a href="#" class="nav-icon" aria-label="page d'accueil" aria-current="page"><img src="assets/images/clock-regular.svg" alt="icone horloge">
+          <span>Watches</span>
+        </a>
+        <div class="main-nav-links">
+          <!-- Hamburger -->
+          <button class="hamburger" type="button" aria-label="Toggle Navigation"
+          aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navlinks-container">
+            <a href="index.html" aria-current="page">Accueil</a>
+            <a href="favoris.html" class="fav">Favoris</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div class="nav-authentication">
+          <a href="#" class="sign-user" aria-label="Sign in page">
+            <img src="assets/images/user-solid.svg" alt="user icon">
+          </a>
+          <div class="sign-btns">
+            <button type="button">Connexion</button>
+            <button type="button">Déconnexion</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="search">
+        <input type="text" placeholder="Recherche..." spellcheck="false">
+        <button><img src="assets/images/search.png" alt="icone loupe"></button>
+      </div>
+      <!-- Card -->
+        <div class="card-container">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-front">
+                <img src="assets/images/1165_metro_neomatik_41_update_1bn_pr.jpg" alt="photo montre" class="watch">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+              <div class="card-back">
+                <p>Marque: Nomos</p>
+                <p>Modele: Metro 41 Update </p>
+                <p class="card-price">
+                  Prix: 3700€
+                </p>
+                <i class="fa-regular fa-heart"></i>
+                <a href="montre.html" class="btn">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-front">
+                <img src="assets/images/0177_Tangente_neomatik_nachtblau-2d-front-masked.jpg" alt="photo montre" class="watch">
+                <i class="fa-solid fa-arrow-right"></i>
+                
+              </div>
+              <div class="card-back">
+                <p>Marque: Nomos</p>
+                <p>Modele: Tangente </p>
+                <p class="card-price">
+                  Prix: 2700€
+                </p>
+                <i class="fa-regular fa-heart"></i>
+                <a href="#" class="btn">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-front">
+                <img src="assets/images/0735_0737_club_38_campus-2d-front-masked.jpg" alt="photo montre" class="watch">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+              <div class="card-back">
+                <p>Marque: Nomos</p>
+                <p>Modele: Club </p>
+                <p class="card-price">
+                  Prix: 1600€
+                </p>
+                <i class="fa-regular fa-heart"></i>
+                <a href="#" class="btn">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+       
+<footer>
+      <div class="footer">
+        <a href="#home" class="nav-icon" aria-label="page d'accueil" aria-current="page"><img src="assets/images/clock-regular.svg" alt="icone horloge"></a>
+        <span>
+              Tous droit réservés.
+        </span>
+        <!-- Horloge numérique -->
+        <div id="time"></div>
+      </div>
+</footer>
+<!-- JS  -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
